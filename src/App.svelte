@@ -4,18 +4,6 @@
 	import AddPlayer from './AddPlayer.svelte';
 
 	let players = [
-		{
-			name: 'John Doe',
-			points: 53
-		},
-		{
-			name: 'Sam Smith',
-			points: 45
-		},
-		{
-			name: 'Sara Wilson',
-			points: 34
-		}
 	];
 
 	const addPlayer = (e) => {
